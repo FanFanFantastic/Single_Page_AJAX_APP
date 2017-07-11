@@ -1,0 +1,67 @@
+<!--Hand Typed By Jiongming Fan, U-Hual International All Rights Reversed-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JSON SPA Application</title>
+    <!--SEO Descriptions-->
+    <meta name="description" content="A Single Page AJAX API Call Application.">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    
+    <table id="user_info" class="table table-hover">
+        <thead>
+          <tr>
+            <th>#</th>  
+            <th>User Name</th>
+            <th>Address</th>
+            <th>More Actions</th>
+          </tr>
+        </thead>
+        
+        <tbody id="users">
+          
+        </tbody>
+    </table>
+    
+    <table id="user_post" class="table table-hover">
+        <thead>
+          <tr>
+            <th>POST ID</th>  
+            <th><a onclick="sortTable(0)">POST TITLE</a></th>
+            <th>POST BODY</th>
+            <th>DELETE/EDIT</th>
+          </tr>
+        </thead>
+        
+        <tbody id="posts">
+          
+        </tbody>
+    </table>
+    
+    <button id="home" class="btn-primary">BACK HOME</button>
+    <button id="add_post" class="btn-primary">ADD NEW POST</button>
+    
+    <div id="new">
+        <p>New Post Title: <input type="text" id="new_title"></p>
+        <p>New Post Body: <input type="text" id="new_body"></p>
+        <button id="submit_new" class="btn-primary">ADD NOW</button> 
+    </div>   
+    
+    <div id="edit">
+        <p>Edit Post Title: <input type="text" id="edit_title"></p>
+        <p>Edit Post Body: <input type="text" id="edit_body"></p>
+        <button id="submit_edit" class="btn-primary">EDIT NOW</button> 
+    </div>
+    
+<script src="js/main.js"></script> 
+<script src="js/sort.js"></script> 
+
+</body>
+</html>

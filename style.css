@@ -1,0 +1,30 @@
+#user_post{
+    display:none;
+}
+
+#home
+{
+   display:none; 
+}
+
+#add_post
+{
+   display:none;
+    float:right;
+}
+
+body p{
+    font-family: "Open Sans";
+    font-weight:bold;
+}
+
+#new
+{
+    display:none;   
+    text-align:center;
+}
+
+#edit
+{
+    display:none;
+}
